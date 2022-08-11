@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+
+import Flex from './components/Flex';
+import Button from './components/Button';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Flex alignItems="center" direction="column" margin="10rem 1rem" rowGap="25px">
+        <Button>Amazy Gem</Button>
+        <Button outline>Amazy Gem</Button>
+      </Flex>
     </div>
   );
 }
