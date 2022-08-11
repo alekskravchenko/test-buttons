@@ -22,6 +22,7 @@ const StyledButton = styled.button`
   white-space: nowrap;
   width: 100%;
   will-change: filter;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   overflow: hidden;
   text-overflow: ellipsis;
 
