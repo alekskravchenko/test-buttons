@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Flex alignItems="center" direction="column" margin="10rem 1rem" rowGap="25px">
-        <Button>Amazy Gem</Button>
-        <Button outline>Amazy Gem</Button>
+        <Button></Button>
+        <Button outline></Button>
       </Flex>
     </div>
   );
