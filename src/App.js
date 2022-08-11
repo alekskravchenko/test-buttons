@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <Flex alignItems="center" direction="column" margin="10rem 1rem" rowGap="25px">
-        <Button></Button>
-        <Button outline></Button>
+        <Button>Lorem text</Button>
+        <Button outline color="#D6D1E9">Lorem text</Button>
       </Flex>
     </div>
   );
