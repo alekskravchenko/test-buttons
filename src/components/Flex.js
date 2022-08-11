@@ -1,8 +1,6 @@
 import React from "react";
 import styled, {css} from "styled-components";
 
-//import ButtonRectange from 'public/images/svg/buttonRectangle.svg'
-
 const StyledFlex = styled.div`
  display: flex;
  flex-direction: ${props => props.direction || 'row'};
